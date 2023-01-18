@@ -1,0 +1,46 @@
+body {
+  background: rgb(218, 218, 218);
+}
+div {
+  background-color: aqua;
+}
+img {
+  width: 35px;
+}
+div ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+div ul li {
+  color: red;
+  display: inline;
+  float: left;
+  padding-left: 2%;
+}
+li:nth-child(2) {
+  padding-top: 2%;
+}
+li:nth-child(1) {
+  margin: 0%;
+}
+li:last-child {
+  border-right: none;
+  float: right;
+  padding-top: 4%;
+  padding-right: 2%;
+}
+
+li:hover {
+  color: green;
+}
+img:hover {
+  background-color: green;
+}
+
+title {
+  color: blue;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
